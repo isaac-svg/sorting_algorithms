@@ -13,15 +13,16 @@ int temp = *a;
 *b = temp;
 }
 
+
 /**
 * partition - partition scheme.
 * @array: The array to partition.
 * @low: The low index of the partition.
 * @high: The high index of the partition.
 * @size: The size of the array.
-* Returns: The partion index (int).
+*
+* Return: The partition index (int)
 */
-
 int partition(int *array, int low, int high, size_t size)
 {
 int pivot = array[high];
